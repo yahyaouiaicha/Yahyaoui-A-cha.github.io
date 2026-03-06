@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galerie | Aïcha Yahyaoui</title>
-
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +15,13 @@
     <nav class="navbar">
         <div class="logo">AY<span>.</span></div>
 
-        <ul class="nav-links">
+        <button class="burger" id="burger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
             <li><a href="index.html">Accueil</a></li>
             <li><a href="realisations.html">Réalisations</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -31,231 +35,167 @@
             <p>Photographie sportive, événementielle et portrait.</p>
         </div>
     </section>
-    <br>
+
     <!-- GALERIE -->
     <section class="galerie-section">
+        <div class="container">
 
-<!-- ================= SPORTIVE ================= -->
+            <!-- ================= SPORTIVE ================= -->
+            <h2 class="section-title">Photographie Sportive</h2>
+            <div class="galerie-grid">
 
-<h2 class="section-title">Photographie Sportive</h2>
-<div class="galerie-grid">
+                <div class="photo-card">
+                    <img src="photo1.JPG" alt="MMA K-MIX 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>K-MIX 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo1.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>K-MIX 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo4.JPG" alt="MMA K-MIX 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>K-MIX 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo4.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>K-MIX 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo5.JPG" alt="MMA K-MIX 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>K-MIX 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo5.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>K-MIX 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo11.JPG" alt="MMA K-MIX 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>K-MIX 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo11.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>K-MIX 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo9.JPG" alt="MMA K-MIX 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>K-MIX 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo9.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>K-MIX 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo10.JPG" alt="MMA K-MIX 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>K-MIX 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo10.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>K-MIX 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo7.JPG" alt="MMA Entrainement 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>Entrainement 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo7.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>Entrainement 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo8.JPG" alt="MMA Entrainement 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>Entrainement 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo8.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>Entrainement 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo6.JPG" alt="MMA Entrainement 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>Entrainement 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo6.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>Entrainement 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo12.JPG" alt="MMA Entrainement 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>Entrainement 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo12.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>Entrainement 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo13.JPG" alt="MMA Entrainement 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>Entrainement 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo13.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>Entrainement 2026</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo14.JPG" alt="MMA Entrainement 2026">
+                    <div class="photo-overlay"><h4>MMA</h4><p>Entrainement 2026</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo14.JPG">
-<div class="photo-overlay">
-<h4>MMA</h4>
-<p>Entrainement 2026</p>
-</div>
-</div>
+            </div>
 
-</div> <!-- FIN SPORTIVE -->
+            <!-- ================= CULTURELLE ================= -->
+            <h2 class="section-title">Photographie Culturelle</h2>
+            <div class="galerie-grid">
 
+                <div class="photo-card">
+                    <img src="photo3.JPG" alt="Concert de Yorssy - La Cigale 2025">
+                    <div class="photo-overlay"><h4>CONCERT DE YORSSY</h4><p>LA CIGALE 2025</p></div>
+                </div>
 
-<!-- ================= CULTURELLE ================= -->
+                <div class="photo-card">
+                    <img src="photo16.JPG" alt="Concert de Yorssy - La Cigale 2025">
+                    <div class="photo-overlay"><h4>CONCERT DE YORSSY</h4><p>LA CIGALE 2025</p></div>
+                </div>
 
-<h2 class="section-title">Photographie Culturelle</h2>
-<div class="galerie-grid">
+                <div class="photo-card">
+                    <img src="photo15.JPG" alt="Concert de Yorssy - La Cigale 2025">
+                    <div class="photo-overlay"><h4>CONCERT DE YORSSY</h4><p>LA CIGALE 2025</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo3.JPG">
-<div class="photo-overlay">
-<h4>CONCERT DE YORSSY</h4>
-<p>LA CIGALE 2025</p>
-</div>
-</div>
+            </div>
 
-<div class="photo-card">
-<img src="photo16.JPG">
-<div class="photo-overlay">
-<h4>CONCERT DE YORSSY</h4>
-<p>LA CIGALE 2025</p>
-</div>
-</div>
+            <!-- ================= ASSOCIATIVE ================= -->
+            <h2 class="section-title">Photographie Associative</h2>
+            <div class="galerie-grid">
 
-<div class="photo-card">
-<img src="photo15.JPG">
-<div class="photo-overlay">
-<h4>CONCERT DE YORSSY</h4>
-<p>LA CIGALE 2025</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo17.jpg" alt="Événement caritatif - Coupe Faim Coupe Froid">
+                    <div class="photo-overlay"><h4>Événement caritatif</h4><p>COUPE FAIM COUPE FROID</p></div>
+                </div>
 
-</div> <!-- FIN CULTURELLE -->
+                <div class="photo-card">
+                    <img src="photo19.jpg" alt="Événement caritatif - Coupe Faim Coupe Froid">
+                    <div class="photo-overlay"><h4>Événement caritatif</h4><p>COUPE FAIM COUPE FROID</p></div>
+                </div>
 
+                <div class="photo-card">
+                    <img src="photo18.jpg" alt="Événement caritatif - Coupe Faim Coupe Froid">
+                    <div class="photo-overlay"><h4>Événement caritatif</h4><p>COUPE FAIM COUPE FROID</p></div>
+                </div>
 
-<!-- ================= ASSOCIATIVE ================= -->
+                <div class="photo-card">
+                    <img src="photo22.jpeg" alt="Événement caritatif - Coupe Faim Coupe Froid">
+                    <div class="photo-overlay"><h4>Événement caritatif</h4><p>COUPE FAIM COUPE FROID</p></div>
+                </div>
 
-<h2 class="section-title">Photographie Associative</h2>
-<div class="galerie-grid">
+                <div class="photo-card">
+                    <img src="photo20.jpg" alt="Événement caritatif - Coupe Faim Coupe Froid">
+                    <div class="photo-overlay"><h4>Événement caritatif</h4><p>COUPE FAIM COUPE FROID</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo17.jpg">
-<div class="photo-overlay">
-<h4>Événement caritatif</h4>
-<p>L’association <br> COUPE FAIM COUPE FROID</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo21.jpeg" alt="Événement caritatif - Coupe Faim Coupe Froid">
+                    <div class="photo-overlay"><h4>Événement caritatif</h4><p>COUPE FAIM COUPE FROID</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo19.jpg">
-<div class="photo-overlay">
-<h4>Événement caritatif</h4>
-<p>L’association <br> COUPE FAIM COUPE FROID</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo23.jpg" alt="Réunion associative - Chaiz'Elles">
+                    <div class="photo-overlay"><h4>Réunion associative</h4><p>CHAIZ'ELLES</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo18.jpg">
-<div class="photo-overlay">
-<h4>Événement caritatif</h4>
-<p>L’association <br> COUPE FAIM COUPE FROID</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo24.jpg" alt="Réunion associative - Chaiz'Elles">
+                    <div class="photo-overlay"><h4>Réunion associative</h4><p>CHAIZ'ELLES</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo22.jpeg">
-<div class="photo-overlay">
-<h4>Événement caritatif</h4>
-<p>L’association <br> COUPE FAIM COUPE FROID</p>
-</div>
-</div>
+                <div class="photo-card">
+                    <img src="photo25.jpg" alt="Réunion associative - Chaiz'Elles">
+                    <div class="photo-overlay"><h4>Réunion associative</h4><p>CHAIZ'ELLES</p></div>
+                </div>
 
-<div class="photo-card">
-<img src="photo20.jpg">
-<div class="photo-overlay">
-<h4>Événement caritatif</h4>
-<p>L’association <br> COUPE FAIM COUPE FROID</p>
-</div>
-</div>
+            </div>
 
-<div class="photo-card">
-<img src="photo21.jpeg">
-<div class="photo-overlay">
-<h4>Événement caritatif</h4>
-<p>L’association <br> COUPE FAIM COUPE FROID</p>
-</div>
-</div>
+        </div>
+    </section>
 
-<div class="photo-card">
-<img src="photo23.jpg">
-<div class="photo-overlay">
-<h4>Réunion associative</h4>
-<p>L’association CHAIZ'ELLES</p>
-</div>
-</div>
-
-<div class="photo-card">
-<img src="photo24.jpg">
-<div class="photo-overlay">
-<h4>Réunion associative</h4>
-<p>L’association CHAIZ'ELLES</p>
-</div>
-</div>
-
-<div class="photo-card">
-<img src="photo25.jpg">
-<div class="photo-overlay">
-<h4>Réunion associative</h4>
-<p>L’association CHAIZ'ELLES</p>
-</div>
-</div>
-
-</div> <!-- FIN ASSOCIATIVE -->
-
-</section>
     <!-- FOOTER -->
     <footer>
-
         © 2026 Aïcha Yahyaoui — BUT MMI
     </footer>
-</body>
 
+    <script>
+        const burger = document.getElementById('burger');
+        const navLinks = document.getElementById('nav-links');
+        burger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+        });
+        navLinks.querySelectorAll('a').forEach(a => {
+            a.addEventListener('click', () => navLinks.classList.remove('open'));
+        });
+    </script>
+
+</body>
 </html>
